@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Finance Logger</h1>
+    </header>
+    <main>
+        <form class="form">
+            <div class="input-field">
+                <label for="">Type:</label>
+                <select id="type" name="type">
+                    <option value="Invoice">Invoice</option>
+                    <option value="Payment">Payment</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="toFrom">To/From:</label>
+                <input type="text" id="toFrom">
+            </div>
+            <div class="input-field">
+                <label for="detail">Details:</label>
+                <input type="text" id="detail">
+            </div>
+            <div class="input-field">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount">
+            </div>
+            <button type="submit">Add</button>
+        </form>
+        <div class="footer">
+            <p>This is an Finance logger app</p>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

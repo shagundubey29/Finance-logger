@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+header h1{
+    font-size: 2.4rem;
+    color: #F72585;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #EDEDE9;
+}
+
+main form{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main form .input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+main form .input-field input, select{
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+}
+
+main form .input-field select option{
+    padding: 1rem;
+    background-color: #fff;
+        color: #000;
+}
+
+main form button{
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #F72585;
+    color: #fff;
+    outline: none;
+    margin-top: 2rem;
+}
+
+main .footer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .footer p{
+    font-size: 0.8rem;
+    color: #333;
+    text-decoration: underline;
+}
